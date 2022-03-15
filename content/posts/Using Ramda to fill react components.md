@@ -1,11 +1,12 @@
 ---
-author = "Piotr Yordanov"
-title = "Using ramda to fill react components"
-date = "2022-03-15"
-description = "Functional methods to fill react component using ramda"
-tags = [
-    "ramda", "react", "javascript"
-]
+author: "Piotr Yordanov"
+title: "Using ramda to fill react components"
+date: "2022-03-15"
+description: "Functional methods to fill react component using ramda"
+tags:
+- ramda
+- react
+- javascript
 ---
 
 [Ramda](https://ramdajs.com) is swiss toolbox of javascript functional programming.
