@@ -13,12 +13,8 @@
       <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.piotryordanov.com/posts/using-ramda-to-fill-react-components/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ramdajs.com&#34;&gt;Ramda&lt;/a&gt; is swiss toolbox of javascript functional programming.
-I have decided to use it in order to greatly simplify the way I am managing data processing.&lt;/p&gt;
-&lt;p&gt;As I was building &lt;a href=&#34;https://zeistab.piotryordanov.com&#34;&gt;Zeistab&lt;/a&gt;, I came across two challenges. The first was related to fetching data asynchronisally, while needing to wait for all to be fetched. I discussed it in detail in my post on &lt;a href=&#34;https://blog.piotryordanov.com/posts/Fetching&#34;&gt;Fetching&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;And here is another interesting case of ramda
-This is a very interesting case of what we are doing to do&lt;/p&gt;
-&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <description>Ramda is swiss toolbox of javascript functional programming. I have decided to use it in order to greatly simplify the way I am managing data processing.
+As I was building Zeistab, I came across two challenges. The first was related to fetching data asynchronisally, while needing to wait for all to be fetched. I discussed it in detail in my post on Fetching</description>
     </item>
     
   </channel>
