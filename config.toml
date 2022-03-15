@@ -11,17 +11,17 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
-  author = "Piotr Yordanov Doe"
-  info = "🧙‍♂️ Harry Piotr of Awesomness"
-  description = "🧙‍♂️ Harry Piotr of Awesomness"
+  author = "Piotr Yordanov"
+  info = "🧙‍♂️ Harry Piotr of Awesomness 🧘‍♂️"
+  description = "🧙‍♂️ Harry Piotr of Awesomness 🧘‍♂️"
   keywords = "blog,developer,personal"
   #avatarurl = "images/avatar.jpg"
   gravatar = "piotr.yordanov@gmail.com"
 
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  favicon_32 = "/img/flatiron.svg"
+  favicon_12 = "/img/flatiron.svg"
 
-  since = 2019
+  since = ""
 
   enableTwemoji = true
 

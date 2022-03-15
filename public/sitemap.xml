@@ -2,14 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.piotryordanov.com/tags/emoji/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.piotryordanov.com/posts/my-first-post/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.piotryordanov.com/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.piotryordanov.com/posts/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.piotryordanov.com/tags/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.piotryordanov.com/authors/</loc>
   </url><url>
     <loc>https://blog.piotryordanov.com/categories/</loc>
   </url><url>
-    <loc>https://blog.piotryordanov.com/</loc>
-  </url><url>
     <loc>https://blog.piotryordanov.com/series/</loc>
-  </url><url>
-    <loc>https://blog.piotryordanov.com/tags/</loc>
   </url>
 </urlset>
