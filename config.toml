@@ -1,5 +1,5 @@
-baseurl = "http://www.example.com"
-title = "johndoe"
+baseurl = "https://blog.piotryordanov.com"
+title = "Piotr Yordanov"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -10,15 +10,13 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
-
 [params]
-  author = "John Doe"
-  info = "Full Stack DevOps and Magician"
-  description = "John Doe's personal website"
+  author = "Piotr Yordanov Doe"
+  info = "🧙‍♂️ Harry Piotr of Awesomness"
+  description = "🧙‍♂️ Harry Piotr of Awesomness"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
-  #gravatar = "john.doe@example.com"
+  #avatarurl = "images/avatar.jpg"
+  gravatar = "piotr.yordanov@gmail.com"
 
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
@@ -45,24 +43,15 @@ disqusShortname = "yourdiscussshortname"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/piotryordanov/"
 [[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
+  name = "Linkedin"
+  icon = "fa fa-linkedin fa-2x"
   weight = 2
-  url = "https://gitlab.com/johndoe/"
-[[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "https://www.linkedin.com/in/piotr-yordanov/"
 
 # Menu links
 [[menu.main]]
   name = "Blog"
   weight = 1
   url  = "posts/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
