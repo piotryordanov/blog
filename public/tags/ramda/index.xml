@@ -13,7 +13,9 @@
       <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.piotryordanov.com/posts/the-case-for-ramda/</guid>
-      <description>&lt;p&gt;And here is another interesting case of ramda
+      <description>&lt;p&gt;&lt;a href=&#34;https://ramdajs.com&#34;&gt;Ramda&lt;/a&gt; is swiss toolbox of javascript functional programming.
+I have decided to use it in my&lt;/p&gt;
+&lt;p&gt;And here is another interesting case of ramda
 This is a very interesting case of what we are doing to do&lt;/p&gt;
 &lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>

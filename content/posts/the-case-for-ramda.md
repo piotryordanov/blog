@@ -8,6 +8,9 @@ tags = [
 ]
 +++
 
+[Ramda](https://ramdajs.com) is swiss toolbox of javascript functional programming.
+I have decided to use it in my 
+
 And here is another interesting case of ramda
 This is a very interesting case of what we are doing to do
 

@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "5cacfdaac398a743",
+        "id": "c3b242e6abdc0ea1",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -86,7 +86,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5cacfdaac398a743",
+  "active": "c3b242e6abdc0ea1",
   "lastOpenFiles": [
     "content/posts/the-case-for-ramda.md",
     "content/posts/my-first-post.md"
