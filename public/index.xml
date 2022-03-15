@@ -14,7 +14,7 @@
       
       <guid>https://blog.piotryordanov.com/posts/using-ramda-to-fill-react-components/</guid>
       <description>Ramda is swiss toolbox of javascript functional programming. I have decided to use it in order to greatly simplify the way I am managing data processing.
-As I was building Zeistab, I came across two challenges. The first was related to fetching data asynchronisally, while needing to wait for all to be fetched. I discussed it in detail in my post on Fetching</description>
+As I was building Zeistab, I came across two challenges. The first was related to fetching data asynchronisally, while needing to wait for all to be fetched. I discussed it in detail in my post on using Ramda Map with async calls</description>
     </item>
     
     <item>
@@ -23,7 +23,7 @@ As I was building Zeistab, I came across two challenges. The first was related t
       <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.piotryordanov.com/posts/using-ramda-map-with-async-calls/</guid>
-      <description>By far, the hardest challenge I faced while building Zeistab</description>
+      <description>By far, the hardest Ramda challenge I faced while building Zeistab was running a R.map on a bunch of async functions, and then waiting for the result of all the async functions before proceeding. Normally, Promise.All does the job, but the question was to figure out how to integrate that with ramda.</description>
     </item>
     
   </channel>

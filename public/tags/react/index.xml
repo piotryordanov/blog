@@ -14,7 +14,7 @@
       
       <guid>https://blog.piotryordanov.com/posts/using-ramda-to-fill-react-components/</guid>
       <description>Ramda is swiss toolbox of javascript functional programming. I have decided to use it in order to greatly simplify the way I am managing data processing.
-As I was building Zeistab, I came across two challenges. The first was related to fetching data asynchronisally, while needing to wait for all to be fetched. I discussed it in detail in my post on Fetching</description>
+As I was building Zeistab, I came across two challenges. The first was related to fetching data asynchronisally, while needing to wait for all to be fetched. I discussed it in detail in my post on using Ramda Map with async calls</description>
     </item>
     
   </channel>
