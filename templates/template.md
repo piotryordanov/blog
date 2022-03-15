@@ -1,8 +1,9 @@
 +++
 author = "Piotr Yordanov"
 title = "{{title}}"
-date = "{{date}""
+date = "{{date}}"
 description = ""
 tags = [
 ]
 +++
+
