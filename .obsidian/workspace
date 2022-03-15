@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/posts/Using Ramda Map with async calls.md",
+            "file": "content/posts/Using Ramda to fill react components.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Using Ramda Map with async calls.md",
+                "file": "content/posts/Using Ramda to fill react components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "c3b242e6abdc0ea1",
   "lastOpenFiles": [
+    "content/posts/Using Ramda to fill react components.md",
     "content/posts/Using Ramda Map with async calls.md",
     "templates/template.md",
-    "content/posts/Using Ramda to fill react components.md",
     "content/posts/my-first-post.md"
   ]
 }

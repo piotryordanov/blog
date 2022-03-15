@@ -20,11 +20,11 @@
     <loc>https://blog.piotryordanov.com/tags/</loc>
     <lastmod>2022-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.piotryordanov.com/posts/using-ramda-map-with-async-calls/</loc>
-    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.piotryordanov.com/posts/using-ramda-to-fill-react-components/</loc>
     <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.piotryordanov.com/posts/using-ramda-map-with-async-calls/</loc>
+    <lastmod>2022-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.piotryordanov.com/authors/</loc>
   </url><url>
