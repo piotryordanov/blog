@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "0dcba162c488e334",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cacfdaac398a743",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "content/posts/the-case-for-ramda.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3be2ece3140a2eb1",
+    "type": "split",
+    "children": [
+      {
+        "id": "0220c0f863c02f9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51d3505857a1ebde",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4a068949198d404f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dd901af62f7a6b58",
+    "type": "split",
+    "children": [
+      {
+        "id": "47e10a07027e955d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42d0608bc8e09b1d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/posts/the-case-for-ramda.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5cacfdaac398a743",
+  "lastOpenFiles": [
+    "content/posts/the-case-for-ramda.md",
+    "content/posts/my-first-post.md"
+  ]
+}

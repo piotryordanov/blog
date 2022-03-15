@@ -52,6 +52,6 @@ pygmentscodefencesguesssyntax = true
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
+  name = "Posts"
   weight = 1
   url  = "posts/"
