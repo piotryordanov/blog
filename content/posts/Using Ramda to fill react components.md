@@ -1,12 +1,20 @@
 +++
 author = "Piotr Yordanov"
-title = "Emoji Support"
-date = "2022-03-11"
-description = "Guide to emoji usage in Hugo"
+title = "Using ramda to fill react components"
+date = "2022-03-15"
+description = "Functional methods to fill react component using ramda"
 tags = [
-    "emoji",
+    "ramda", "react", "javascript"
 ]
 +++
+
+[Ramda](https://ramdajs.com) is swiss toolbox of javascript functional programming.
+I have decided to use it in order to greatly simplify the way I am managing data processing.
+
+As I was building [Zeistab](https://zeistab.piotryordanov.com), I came across two challenges. The first was related to fetching data asynchronisally, while needing to wait for all to be fetched. I discussed it in detail in my post on [Fetching](/posts/Fetching )
+
+And here is another interesting case of ramda
+This is a very interesting case of what we are doing to do
 
 Emoji can be enabled in a Hugo project in a number of ways.
 <!--more-->
@@ -30,17 +38,4 @@ The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference
 {{< /highlight >}}
 
 {{< css.inline >}}
-<style>
-.emojify {
-	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-	font-size: 2rem;
-	vertical-align: middle;
-}
-@media screen and (max-width:650px) {
-  .nowrap {
-    display: block;
-    margin: 25px 0;
-  }
-}
-</style>
 {{< /css.inline >}}
