@@ -2,5 +2,6 @@
   "vimMode": true,
   "promptDelete": false,
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "content/Attachments"
+  "attachmentFolderPath": "content/Attachments",
+  "legacyEditor": false
 }
