@@ -10,8 +10,6 @@ Did you ever try running `console.table` instead of `console.log`
 
 This was before
 
-![](Attachments/Pasted%20image%2020220327203858.png)
-![](Pasted%20image%2020220327203858.png)
-
+![](/Attachments/Pasted%20image%2020220327203858.png)
 And this is after
-![](Pasted%20image%2020220327203913.png)
+![](/Pasted%20image%2020220327203913.png)
