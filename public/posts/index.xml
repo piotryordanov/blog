@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Piotr Yordanov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.piotryordanov.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.piotryordanov.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Javascript&#39;s super cool console.table</title>
+      <link>https://blog.piotryordanov.com/posts/javascripts-super-cool-console.table/</link>
+      <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.piotryordanov.com/posts/javascripts-super-cool-console.table/</guid>
+      <description>Did you ever try running console.table instead of console.log
+This was before
+And this is after </description>
+    </item>
+    
     <item>
       <title>Using ramda to fill react components</title>
       <link>https://blog.piotryordanov.com/posts/using-ramda-to-fill-react-components/</link>
