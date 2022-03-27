@@ -1,5 +1,6 @@
 {
   "vimMode": true,
   "promptDelete": false,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "content/Attachments"
 }
