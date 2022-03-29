@@ -7,3 +7,6 @@ tags:
 ---
 
 Wut!
+
+https://blog.logrocket.com/dexie-js-indexeddb-react-apps-offline-data-storage/
+https://dexie.org/
