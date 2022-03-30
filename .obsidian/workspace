@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "IndexedDB.md",
+            "file": "Solve __dirname is not defined.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IndexedDB.md",
+                "file": "Solve __dirname is not defined.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "c3b242e6abdc0ea1",
   "lastOpenFiles": [
+    "Solve __dirname is not defined.md",
     "IndexedDB.md",
     "Typescript merging multiple styles.md",
     "content/posts/The Three jewels.md",
