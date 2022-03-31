@@ -3,5 +3,10 @@
   "promptDelete": false,
   "useMarkdownLinks": true,
   "attachmentFolderPath": "content/Attachments",
-  "legacyEditor": false
+  "legacyEditor": false,
+  "spellcheckDictionary": [
+    "sangha",
+    "Zazen",
+    "Sangha"
+  ]
 }

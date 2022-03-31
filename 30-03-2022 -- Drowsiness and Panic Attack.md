@@ -12,7 +12,7 @@ tags:
 		+ Frustration that the physical capacity is not expanding as much as is desired
 	+ There was drowsiness during the session
 		+ Mindless experience yet feeling of absorption
-		+ Felt like a cloud was obscuring the view, but the car was moving none the less.
+		+ Felt like a cloud was obscuring the view, but the car was moving nonetheless.
 + On the way back home, experienced a great feeling of anxiety
 	+ It expanded exponentially when family called me for dinner
 		+ I sat in my room for a few minutes.
@@ -25,5 +25,6 @@ tags:
 	+ What is the end goal of it
 	+ It does not last. It is fickle.
 	+ There is clinging to it, despite its very impermanent nature
-+ Do physical actual sanghas promote sangha as a refuge because it is a conflict of interest?
++ Do physical sanghas promote sangha as a refuge because it is a conflict of interest?
 + What if the third jewel didn't necessarily need to be in person?
++ I wonder: *What is the root cause of my craving for consumption?*
