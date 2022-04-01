@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "30-03-2022 -- Drowsiness and Panic Attack.md",
+            "file": "Untitled.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30-03-2022 -- Drowsiness and Panic Attack.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "c3b242e6abdc0ea1",
   "lastOpenFiles": [
+    "Untitled.md",
     "30-03-2022 -- Drowsiness and Panic Attack.md",
     "Solve __dirname is not defined.md",
     "IndexedDB.md",
@@ -97,7 +98,6 @@
     "content/posts/Javascript's super cool console.table.md",
     "content/posts/Using Ramda to fill react components.md",
     "content/posts/Using Ramda Map with async calls.md",
-    "templates/template.md",
-    "content/posts/my-first-post.md"
+    "templates/template.md"
   ]
 }
