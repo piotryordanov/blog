@@ -42,9 +42,17 @@ Maybe a Sangha considers a Sangha to be a Jewel, in order to find a reason to ke
 
 This internal conflict resulted in me feeling as if I was losing that connection to a meditation community that has been flourishing for the past 2 months.
 But now, I understand that instead, I didn't lose anything, because there was nothing to lose in the first place!
-From the very first day I got there knowing I did not want to 'belong' anywhere. I went to Zazen for my 'Jedi training', not to do Zazen, for ex.
+From the very first day, I got there knowing I did not want to 'belong' anywhere. I went to Zazen for my 'Jedi training', not to do Zazen, for ex.
 
 But as time passed, it is but normal that the community members would interact with me differently, and I would find value in them. This value creates the fear of loss at the sign of divergence.
 But, losing what?
 All I want, and need, is a place to sit and practice meditation as it speaks to *me*, not as it speaks to other. 
-The reality is that no one will ever really know how much progress I am making in my practice. We never actually sit and talk about our own practices and progress in these practices, do we no now! (It happened punctually at plum retreat with some bright minds)
+The reality is that no one will ever really know how much progress I am making in my practice. We never actually sit and talk about our own practices and progress in these practices, do we now! (It happened punctually at plum retreat with some bright minds)
+
+### The 3 Jewels
+The piece of information that I was missing in my understading of the 3 Jewels, is that both the Buddha and the Sangha do **not** to be physical entities.
+The Buddha can be a reference to the Buddha nature, such as the force.
+This nature is manifested when an action is taken that is aligned with the 8 fold path.
+That's all there is.
+
+And the Sangha is a community that 
