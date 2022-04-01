@@ -16,8 +16,8 @@ I realize now that it is because the cause of my suffering was in the practice i
 ### Physical pain
 As far as the body is concerned, sitting in Zazen has been causing me issues, leading me to want to get in lotus form, only to realize that i could not. Lack of body flexibility is the problem.
 So, I tried doing exercises to reinforce that, but it led to physical pain, leaving me in panic that I might no longer be able to sit in meditation if I were to suffer an injury.
-However, this fear calmed down in an instant after a video call with my mother who showed me which exercise caused my actual pain.
-She also guided me to do the exercises that would benefit my end goal of cultivating stretching, flexbility, and thus sitting in full lotus during meditation.
+However, this fear calmed down in an instant after a video call with my mother, who showed me which exercise caused my actual pain.
+She also guided me to do the exercises that would benefit my end goal of cultivating stretching, flexibility, and thus sitting in full lotus during meditation.
 
 ### Divergence with Sanghas
 
@@ -31,7 +31,7 @@ However, I find there is a contraction between this, and the 4 noble truth, in p
 
 Yes, I have found refuge in the plum retreat of NYE, because I found like-minded people.
 But, I also heavily resisted the ceremonial aspect of their practice -- too much herd mentality needed.
-Last week I finally came to understand [The Eight-fold Path](The%20Eight-fold%20Path.md) , and with it came an appreciation of [The Three jewels](The%20Three%20jewels.md): The buddha, the dharma, and finally, the sangha.
+Last week I finally came to understand [The Eight-fold Path](The%20Eight-fold%20Path.md) , and with it came an appreciation of [The Three jewels](The%20Three%20jewels.md): The Buddha, the dharma, and finally, the sangha.
 
 However, I had an itch annoying me.
 If the 3 jewels included the sangha, did that mean that the physical presence in a sangha was imperative? If yes, then which? And why this one, not the other? Why this teacher, not another one?
@@ -50,9 +50,22 @@ All I want, and need, is a place to sit and practice meditation as it speaks to 
 The reality is that no one will ever really know how much progress I am making in my practice. We never actually sit and talk about our own practices and progress in these practices, do we now! (It happened punctually at plum retreat with some bright minds)
 
 ### The 3 Jewels
-The piece of information that I was missing in my understading of the 3 Jewels, is that both the Buddha and the Sangha do **not** to be physical entities.
+The piece of information that I was missing in my understanding of the 3 Jewels, is that both the Buddha and the Sangha do **not** to be physical entities.
 The Buddha can be a reference to the Buddha nature, such as the force.
-This nature is manifested when an action is taken that is aligned with the 8 fold path.
+This nature is manifested when an action is taken that is aligned with the 8-fold path.
 That's all there is.
 
-And the Sangha is a community that 
+As for the Sangha, let's go back to the definition. It is supposed to be the spiritual community that provides us support on our path to enlightenment.
+Great, but then does that Sangha need to be a physical one of Buddhist practitioners?
+This begs two critical questions: 
+1. What would a Sangha for lay people who do not want to engage in monastic life? Competitive people, entrepreneurs, and builders who want to go out there in the world and make things?
+2. Which Sangha should one be part of? And as such, what to do if the 'spiritual Sangha' where I live, does not provide deeper support on the path to enlightenment?
+
+I used the second question as a base to reverse engineer the problem: A Sangha can be, but is not necessarily, a community of actual people you meet and spend time with.
+Awakening does not only happen in a Buddhist temple surrounded by Buddhist monks.
+It is a manifestation of living life in an awakened way, by being close to the 8-fold path.
+Right?
+So, maybe... a Sangha can be literally any person we are going to interact with.
+This is the exact same thing as when we do not communicate what is happening during silent meditations. 
+If I am at Carrefour buying grocery, the cashier is offering me the opportunity to smile, be gentle, and respond skillfully and mindfully to potential issues.
+Doing so *is* a sign of enlightenment!
