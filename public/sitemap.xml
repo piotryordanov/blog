@@ -5,10 +5,16 @@
     <loc>https://blog.piotryordanov.com/posts/2022-04-01--losing-what-is-dear/</loc>
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.piotryordanov.com/tags/meditation/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.piotryordanov.com/</loc>
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.piotryordanov.com/posts/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.piotryordanov.com/tags/</loc>
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.piotryordanov.com/posts/javascripts-super-cool-console.table/</loc>
@@ -27,9 +33,6 @@
     <lastmod>2022-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.piotryordanov.com/tags/react/</loc>
-    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.piotryordanov.com/tags/</loc>
     <lastmod>2022-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.piotryordanov.com/posts/using-ramda-to-fill-react-components/</loc>
