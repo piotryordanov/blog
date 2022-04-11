@@ -16,4 +16,4 @@ tags:
 		+ it needs to be done by a conscient effort
 	+ Understanding the 8-fold path
 
-And anothr attempt of jewels
+[Using Ramda Map with async calls](Using%20Ramda%20Map%20with%20async%20calls)
