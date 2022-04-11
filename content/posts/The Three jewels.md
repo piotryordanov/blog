@@ -15,6 +15,3 @@ tags:
 	+ The practice alone won't change habits
 		+ it needs to be done by a conscient effort
 	+ Understanding the 8-fold path
-
-
-  An attempt to update this
