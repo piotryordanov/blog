@@ -58,14 +58,16 @@ clean:
     @rm -rf resources
     @echo "✅ Clean completed!"
 
-# Deploy to GitHub Pages (manual trigger)
+# Deploy to Vercel (production)
 deploy:
-    @echo "🚀 Deploying to GitHub Pages..."
-    @git checkout main
-    @git merge develop --no-ff -m "chore(release): merge develop into main for deployment"
-    @git push origin main
-    @echo "✅ Deployment triggered! Check GitHub Actions for status."
-    @echo "   https://github.com/piotryordanov/blog/actions"
+    @echo "🚀 Deploying to Vercel..."
+    @if ! command -v vercel &> /dev/null; then \
+        echo "⚠️ Vercel CLI not found. Install with: npm i -g vercel"; \
+        exit 1; \
+    fi
+    @hugo --minify
+    @vercel --prod .
+    @echo "✅ Deployment completed!"
 
 # Create a new release
 release version:
