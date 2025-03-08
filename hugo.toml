@@ -10,7 +10,7 @@ author = "Piotr Yordanov"
 info = "Software Engineer and Trader"
 description = "Piotr Yordanov's personal website"
 keywords = "blog,developer,personal,trader"
-avatarURL = "images/avatar.jpg"
+avatarURL = "https://www.gravatar.com/avatar/5a0a63261ea1f4a8b8204a0a993c3e0a?s=240&d=mp"
 dateFormat = "January 2, 2006"
 since = 2024
 # Git Repo metadata
