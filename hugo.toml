@@ -1,0 +1,48 @@
+baseURL = "https://piotryordanov.com/"
+title = "Piotr Yordanov"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[params]
+author = "Piotr Yordanov"
+info = "Software Engineer and Trader"
+description = "Piotr Yordanov's personal website"
+keywords = "blog,developer,personal,trader"
+avatarURL = "images/avatar.jpg"
+dateFormat = "January 2, 2006"
+since = 2024
+# Git Repo metadata
+enableGitInfo = true
+
+# Specify light/dark colorscheme
+colorScheme = "auto"
+hideColorSchemeToggle = false
+
+[pagination]
+pagerSize = 20
+
+# Social links
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/piotryordanov/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter fa-2x"
+weight = 2
+url = "https://twitter.com/piotryordanov/"
+
+# Menu links
+[[menu.main]]
+name = "Blog"
+weight = 1
+url  = "posts/"
+
+[[menu.main]]
+name = "About"
+weight = 2
+url = "about/"
