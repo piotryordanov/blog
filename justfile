@@ -11,7 +11,7 @@ serve:
 
 # Build the site
 build:
-    @hugo
+    @hugo --minify
 
 # Create a new blog post
 new-post title:
@@ -41,12 +41,6 @@ setup-pre-commit:
     @pre-commit autoupdate
     @echo "✅ Pre-commit setup completed!"
 
-# Deploy the site
-deploy:
-    @echo "Building site..."
-    @hugo
-    @echo "Deployment complete!"
-
 # Format markdown files
 fmt:
     @echo "Formatting markdown files..."
@@ -56,3 +50,28 @@ fmt:
     fi
     @find . -type f -name "*.md" -exec prettier --write {} \;
     @echo "✅ Markdown files formatted!"
+
+# Clean generated files
+clean:
+    @echo "Cleaning generated files..."
+    @rm -rf public
+    @rm -rf resources
+    @echo "✅ Clean completed!"
+
+# Deploy to GitHub Pages (manual trigger)
+deploy:
+    @echo "🚀 Deploying to GitHub Pages..."
+    @git checkout main
+    @git merge develop --no-ff -m "chore(release): merge develop into main for deployment"
+    @git push origin main
+    @echo "✅ Deployment triggered! Check GitHub Actions for status."
+    @echo "   https://github.com/piotryordanov/blog/actions"
+
+# Create a new release
+release version:
+    @echo "Creating release {{version}}..."
+    @git flow release start {{version}}
+    @echo "# Update version numbers if needed"
+    @read -p "Press enter to continue..."
+    @git flow release finish {{version}}
+    @echo "✅ Release {{version}} completed!"
