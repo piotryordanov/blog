@@ -1,13 +1,22 @@
-# Hugo generated files
+# Hugo build output and caches
+# -----------------------
+# The public directory contains the generated static site
 public/
+# The resources directory contains Hugo's cached files and processed assets (like SCSS)
 resources/
+# Hugo's build lock file to prevent concurrent builds
 .hugo_build.lock
 
-# OS generated files
+# Operating System Files
+# ---------------------
+# macOS system files
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
+
+# Windows system files
 ehthumbs.db
 Thumbs.db
+.vercel
