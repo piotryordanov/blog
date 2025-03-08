@@ -1,4 +1,4 @@
-baseURL = "https://piotryordanov.com/"
+baseURL = "https://blog.piotryordanov.com/"
 title = "Piotr Yordanov"
 theme = "hugo-coder"
 languageCode = "en"
