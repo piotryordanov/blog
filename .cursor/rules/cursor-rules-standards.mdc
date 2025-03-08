@@ -1,0 +1,83 @@
+---
+description: Cursor Rules Standards
+globs: **/.cursor/rules/*.mdc
+alwaysApply: false
+---
+# Cursor Rules Standards
+
+Standards for creating and organizing Cursor rule files in the repository.
+
+<rule>
+name: cursor_rules_standards
+description: Standards for creating and maintaining Cursor rule files
+filters:
+  # Match any .mdc files
+  - type: file_extension
+    pattern: "\\.mdc$"
+  # Match files that look like Cursor rules
+  - type: content
+    pattern: "(?s)<rule>.*?</rule>"
+  # Match file creation events
+  - type: event
+    pattern: "file_create"
+
+actions:
+  - type: reject
+    conditions:
+      - pattern: "^(?!\\.\\/(cursor|.cursor)\\/rules\\/.*\\.mdc$)"
+        message: "Cursor rule files (.mdc) must be placed in the cursor/rules directory"
+
+      - pattern: "^.*[A-Z].*\\.mdc$"
+        message: "Cursor rule filenames must use kebab-case (lowercase with hyphens)"
+
+      - pattern: "^.*\\s.*\\.mdc$"
+        message: "Cursor rule filenames cannot contain spaces"
+
+  - type: suggest
+    message: |
+      ## Cursor Rules Guidelines
+
+      When creating Cursor rules:
+
+      1. **File Location and Naming**:
+         - Place all rule files in `cursor/rules/`
+         - Use kebab-case for filenames (e.g., `rule-name.mdc`)
+         - Always use `.mdc` extension
+         - Make names descriptive of the rule's purpose
+
+      2. **Rule Structure**:
+         - Begin with a meaningful description and globs pattern
+         - Use an informative heading for the rule
+         - Include clear documentation before the rule block
+         - Define appropriate filters to target the right files/events
+         - Provide helpful error messages in reject conditions
+         - Include examples showing both correct and incorrect patterns
+
+      3. **Rule Content**:
+         - Use `type: reject` for enforcing standards
+         - Use `type: suggest` for providing guidance
+         - Include detailed messages explaining the standards
+         - Consider adding automatic actions when appropriate
+
+      4. **Documentation**:
+         - Include examples showing both correct and incorrect usage
+         - Explain the rationale behind each rule
+         - Provide clear guidance on how to follow the rule
+
+examples:
+  - input: |
+      # Bad filenames:
+      cursor/BadRule.mdc
+      cursor/rules/Bad Rule.mdc
+      rules/my-rule.mdc
+
+      # Good filenames:
+      cursor/rules/git-workflow.mdc
+      cursor/rules/code-standards.mdc
+      cursor/rules/documentation-rules.mdc
+    output: "Correctly named and placed Cursor rule file"
+
+metadata:
+  priority: high
+  version: 1.0
+</rule>

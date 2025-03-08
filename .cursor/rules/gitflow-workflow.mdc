@@ -1,0 +1,187 @@
+---
+description: GitFlow Workflow Enforcement
+globs: *
+alwaysApply: true
+---
+# GitFlow Workflow Standards
+
+Standards for enforcing GitFlow branching model and commit practices.
+
+<rule>
+name: gitflow_workflow_enforcement
+description: Enforces GitFlow branching model and Git workflow best practices
+filters:
+  # Match git operations
+  - type: event
+    pattern: "git_operation"
+  # Match branch creation, checkout, merge, push operations
+  - type: git_command
+    pattern: "^(checkout|branch|merge|push|commit)$"
+
+actions:
+  - type: reject
+    conditions:
+      # Prevent direct commits to master/main branch
+      - pattern: "^git commit.* master$|^git commit.* main$"
+        message: "❌ Direct commits to master/main are not allowed in GitFlow. Use feature, release, or hotfix branches instead."
+
+      # Prevent direct commits to develop branch
+      - pattern: "^git commit.* develop$"
+        message: "❌ Direct commits to develop branch are not allowed in GitFlow. Use feature branches instead."
+
+      # Ensure feature branches follow correct naming convention
+      - pattern: "^git (branch|checkout) -b (?!feature/|release/|hotfix/|develop$|master$|main$).*"
+        message: "❌ New branches must follow GitFlow naming conventions: feature/*, release/*, or hotfix/*"
+
+      # Prevent merging feature branches directly to master
+      - pattern: "^git merge feature/.*"
+        current_branch: "^(master|main)$"
+        message: "❌ Feature branches must be merged to develop first, not directly to master/main"
+
+      # Enforce starting points for branches
+      - pattern: "^git checkout -b feature/.*"
+        current_branch: "^(?!develop).*$"
+        message: "❌ Feature branches must be created from develop branch"
+
+      - pattern: "^git checkout -b release/.*"
+        current_branch: "^(?!develop).*$"
+        message: "❌ Release branches must be created from develop branch"
+
+      - pattern: "^git checkout -b hotfix/.*"
+        current_branch: "^(?!(master|main)).*$"
+        message: "❌ Hotfix branches must be created from master/main branch"
+
+  - type: suggest
+    message: |
+      ## GitFlow Workflow Guide
+
+      Follow these conventions for GitFlow:
+
+      ### Branch Types
+      - **master/main**: Production code only
+      - **develop**: Latest development changes
+      - **feature/**: New features (`feature/feature-name`)
+      - **release/**: Preparing for release (`release/vX.Y.Z`)
+      - **hotfix/**: Emergency fixes (`hotfix/issue-description`)
+
+      ### Workflow
+      1. **Feature Development**:
+         ```
+         git checkout develop
+         git pull
+         git checkout -b feature/your-feature-name
+         # Make changes
+         git commit -m "feat: your changes"
+         # When ready
+         git checkout develop
+         git pull
+         git merge feature/your-feature-name
+         ```
+
+      2. **Release Preparation**:
+         ```
+         git checkout develop
+         git pull
+         git checkout -b release/vX.Y.Z
+         # Final adjustments and fixes
+         git checkout master
+         git pull
+         git merge release/vX.Y.Z
+         git tag vX.Y.Z
+         git checkout develop
+         git merge release/vX.Y.Z
+         ```
+
+      3. **Hotfix**:
+         ```
+         git checkout master
+         git pull
+         git checkout -b hotfix/issue-description
+         # Fix the issue
+         git checkout master
+         git merge hotfix/issue-description
+         git tag vX.Y.Z.fix
+         git checkout develop
+         git merge hotfix/issue-description
+         ```
+
+      4. **Using Git Flow Commands**:
+         For convenience, you can use the git-flow commands:
+         ```
+         # Initialize
+         git flow init
+
+         # Feature
+         git flow feature start feature-name
+         git flow feature finish feature-name
+
+         # Release
+         git flow release start vX.Y.Z
+         git flow release finish vX.Y.Z
+
+         # Hotfix
+         git flow hotfix start issue-description
+         git flow hotfix finish issue-description
+         ```
+
+  - type: execute
+    command: |
+      # Check if git-flow is installed
+      if ! command -v git-flow &> /dev/null; then
+        echo ""
+        echo "⚠️  Git Flow is not installed. Install it with:"
+        echo "- On macOS: brew install git-flow"
+        echo "- On Ubuntu/Debian: apt-get install git-flow"
+        echo "- On Fedora: dnf install gitflow"
+        echo ""
+      else
+        echo ""
+        echo "✅ Git Flow is installed and available"
+        echo ""
+      fi
+
+examples:
+  - input: |
+      # Bad: Direct commit to master
+      git checkout master
+      git commit -m "feat: new feature"
+
+      # Bad: Incorrect branch naming
+      git checkout -b new-feature
+
+      # Good: Proper feature branch
+      git checkout develop
+      git checkout -b feature/user-authentication
+
+      # Good: Proper release branch
+      git checkout develop
+      git checkout -b release/v1.0.0
+
+      # Good: Proper hotfix branch
+      git checkout master
+      git checkout -b hotfix/critical-security-fix
+    output: "Follow GitFlow branching model"
+
+  - input: |
+      # Using git-flow commands (recommended)
+
+      # Feature workflow
+      git flow feature start user-authentication
+      # Work on feature...
+      git flow feature finish user-authentication
+
+      # Release workflow
+      git flow release start v1.0.0
+      # Final adjustments...
+      git flow release finish v1.0.0
+
+      # Hotfix workflow
+      git flow hotfix start security-fix
+      # Fix the issue...
+      git flow hotfix finish security-fix
+    output: "Using git-flow commands for GitFlow workflow"
+
+metadata:
+  priority: high
+  version: 1.0
+</rule>

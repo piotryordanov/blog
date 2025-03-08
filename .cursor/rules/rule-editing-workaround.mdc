@@ -1,0 +1,65 @@
+---
+description: Cursor Rule Editing Workaround
+globs: "**/*.mdc-tmp,**/*.mdc"
+alwaysApply: false
+---
+# Cursor Rule Editing Workaround
+
+Standards for creating and editing cursor rule files to work around Cursor limitations.
+
+<rule>
+name: cursor_rule_editing_workaround
+description: Enforces the workaround process for editing cursor rule files
+filters:
+  # Match any .mdc or .mdc-tmp files
+  - type: file_extension
+    pattern: "\\.mdc(-tmp)?$"
+  # Match file creation and modification events
+  - type: event
+    pattern: "(file_create|file_modify)"
+
+actions:
+  - type: suggest
+    message: |
+      ## Cursor Rule Editing Workaround Process
+
+      Due to Cursor limitations, follow this process when editing rule files:
+
+      ### 1. Temporary File Creation
+      - Use `.mdc-tmp` extension for all new or modified cursor rules
+      - Place temporary files in same location as target `.mdc` file
+
+      ### 2. Process for Modifying Existing Rules
+      - Copy existing `.mdc` file to `.mdc-tmp` before ANY modifications
+      - Get user approval of the initial copy
+      - Only after approval, make edits in the temporary file
+      - Maintain original file until changes are approved
+
+      ### 3. File Finalization
+      - Review changes in temporary file
+      - Use terminal command (`cp` or `mv`) to create final `.mdc` file - NEVER use internal file editing tools
+      - Remove temporary file after successful creation
+
+      Due to known Cursor limitations, internal file editing tools cannot be used to create or modify `.mdc` files directly.
+      Always use terminal commands like `cp` or `mv` for the final step.
+
+examples:
+  - input: |
+      # Creating new rule:
+      touch cursor/rules/example-rule.mdc-tmp
+      # Edit temporary file...
+      cp cursor/rules/example-rule.mdc-tmp cursor/rules/example-rule.mdc
+      rm cursor/rules/example-rule.mdc-tmp
+
+      # Modifying existing rule:
+      cp cursor/rules/existing-rule.mdc cursor/rules/existing-rule.mdc-tmp
+      # Edit temporary file...
+      cp cursor/rules/existing-rule.mdc-tmp cursor/rules/existing-rule.mdc
+      rm cursor/rules/existing-rule.mdc-tmp
+    output: "Following the proper rule editing workaround process"
+
+metadata:
+  priority: high
+  version: 1.0
+  ref: https://github.com/getcursor/cursor/issues/2683
+</rule> 

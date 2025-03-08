@@ -1,0 +1,89 @@
+---
+description: Rule Development Workflow
+globs: "**/.cursor/rules/*.mdc"
+alwaysApply: false
+---
+# Rule Development Workflow
+
+Standards and best practices for developing and testing Cursor rules.
+
+<rule>
+name: rule_development_workflow
+description: Streamlines the process of developing, testing, and deploying Cursor rules
+filters:
+  # Match rule files being edited
+  - type: file_path
+    pattern: "\\.\\/\\.cursor\\/rules\\/.*\\.mdc$"
+  # Match file edit events
+  - type: event
+    pattern: "file_edit"
+
+actions:
+  - type: suggest
+    message: |
+      ## Rule Development Workflow
+
+      Follow this workflow when developing Cursor rules:
+
+      1. **Plan Your Rule**:
+         - Identify the problem or standard you want to enforce
+         - Determine which files/patterns should be targeted
+         - Plan appropriate reject conditions and helpful messages
+         - Consider what guidance would help users comply
+
+      2. **Development Process**:
+         - Create a dedicated feature branch for rule development
+         - Use descriptive commit messages
+         - Test your rule thoroughly with various examples
+
+      3. **Testing Protocol**:
+         - Create test files that should pass and fail validation
+         - Test edge cases with minimal examples
+         - Verify error messages are helpful and clear
+         - Test rule activation on appropriate events
+
+      4. **Deployment**:
+         - Add clear documentation in rule file
+         - Submit a pull request with example files
+         - Get feedback from team members
+         - Consider providing a migration path for existing code
+
+      5. **Maintenance**:
+         - Monitor false positives/negatives
+         - Keep rules up-to-date with evolving standards
+         - Periodically review and refine rules
+
+  - type: execute
+    command: |
+      # Add helpful commands for rule testing
+      echo ""
+      echo "Helpful commands for rule testing:"
+      echo "--------------------------------"
+      echo "- To lint your rule: cursor lint .cursor/rules/your-rule.mdc"
+      echo "- To test a file: cursor validate path/to/test/file.ext"
+      echo "- To see all active rules: cursor rules list"
+      echo ""
+
+examples:
+  - input: |
+      # Example rule development branch:
+      git checkout -b feature/new-style-rule
+      
+      # Create and test your rule:
+      touch .cursor/rules/style-standards.mdc
+      # Edit rule...
+      
+      # Test with example files:
+      touch test-files/good-example.js
+      touch test-files/bad-example.js
+      
+      # Commit and push:
+      git add .cursor/rules/style-standards.mdc
+      git commit -m "feat(rules): add style standards rule"
+      git push origin feature/new-style-rule
+    output: "Follow proper rule development workflow"
+
+metadata:
+  priority: medium
+  version: 1.0
+</rule>

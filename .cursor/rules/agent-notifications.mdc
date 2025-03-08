@@ -1,0 +1,81 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+# Agent Notifications Rule
+
+Standards for notifying users about significant actions performed by the AI agent.
+
+<rule>
+name: agent_notifications
+description: Enforces notification standards for major AI agent actions
+filters:
+  # Match any significant agent actions
+  - type: event
+    pattern: "(file_create|file_modify|file_delete)"
+  # Match any command execution
+  - type: event
+    pattern: "command_execute"
+
+actions:
+  - type: suggest
+    message: |
+      ## Agent Action Notification Standards
+
+      When performing significant actions, the AI agent should:
+
+      ### 1. Pre-Action Notification
+      - Clearly state the intended action
+      - Explain why the action is necessary
+      - List any potential risks or impacts
+      - Get explicit user approval for high-impact changes
+
+      ### 2. During Action Updates
+      - For long-running operations, provide progress updates
+      - Alert user of any unexpected issues or delays
+      - Explain any deviations from the original plan
+
+      ### 3. Post-Action Summary
+      - Summarize all changes made
+      - Confirm successful completion
+      - List any follow-up actions needed
+      - Provide verification steps if applicable
+
+      ### 4. Notification Format and Sound
+
+      After displaying the notification format above, execute:
+      ```bash
+      notify "Action Alert" "[Description of the action just performed]"
+      ```
+      The notification message should be relevant to the specific action being performed.
+
+examples:
+  - input: |
+      # Creating a new configuration file
+      🔔 Action Type: CREATE
+      📝 Description: Creating new pre-commit configuration
+      🎯 Impact: Will affect all future git commits
+      ✅ Status: Pending
+      ⚠️ Risks: May require additional setup steps
+
+      # Execute contextual sound notification
+      notify "Action Alert" "Creating new pre-commit configuration"
+    output: "Proper notification format for file creation with contextual sound"
+
+  - input: |
+      # Executing system command
+      🔔 Action Type: EXECUTE
+      📝 Description: Installing project dependencies
+      🎯 Impact: System-wide package installation
+      ✅ Status: In Progress
+      ⚠️ Risks: May require sudo privileges
+
+      # Execute contextual sound notification
+      notify "Action Alert" "Installing system dependencies"
+    output: "Proper notification format for command execution with contextual sound"
+
+metadata:
+  priority: high
+  version: 1.0
+</rule>
